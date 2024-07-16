@@ -1,0 +1,105 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+
+.card {
+  width: 400px;
+  border-radius: 10px;
+  border: 2px solid #000000;
+  box-shadow: 10px 10px 20px 0px rgba(0, 0, 0, 0.15);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 10px;
+}
+
+.card img {
+  width: 250px;
+  height: 300px;
+  border-radius: 20%;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.card h1 {
+  font-size: 2.5rem;
+  margin-bottom: 10px;
+  text-align: center;
+}
+
+.card p {
+  font-size: 1.5rem;
+  margin-bottom: 10px;
+  text-align: center;
+}
+
+.data {
+  display: block;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+  width: 100%;
+}
+
+.skillList {
+  display: flex;
+  flex-wrap: wrap;
+  list-style-type: none;
+  align-items: center;
+  justify-content: center;
+  padding: 0px;
+  margin: 0px;
+}
+
+.skill-item {
+  margin: 5px;
+  padding: 5px;
+  border-radius: 5px;
+  font-weight: bold;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-width: 100px;
+  text-align: center;
+  font-size: 12px;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  color: #000;
+  cursor: pointer;
+  transition: background-color 0.3s, transform 0.3s;
+}
+
+.skill-item:hover {
+  color: #fff;
+  transform: scale(1.05);
+  filter: brightness(85%);
+}
+
+.skill-html {
+  background-color: #f16529;
+}
+
+.skill-js {
+  background-color: #2965f1;
+}
+
+.skill-rc {
+  background-color: #f0db4f;
+}
+
+.skill-ts {
+  background-color: #61dbfb;
+}
+
+.skill-wd {
+  background-color: #68a063;
+}
+
+.skill-git {
+  background-color: #4db33d;
+}
